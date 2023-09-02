@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+
+.container{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    width: 2000px;
+    padding: 10px;
+    
+}
+
+.menu{
+    color: #f9faf8;
+    margin-left: 60px;
+}
+
+.links{
+    justify-content: flex-end;
+    margin-right: 60px;
+    gap: 8px;
+}
+
+.hero{ 
+    display: flex;
+    background-color: #1F2937;
+    height: 200px;
+}
+
+.hero-text{
+    color: #f9faf8;
+}
+
