@@ -57,9 +57,13 @@ body{
     flex: 100%;
     justify-content: center;
     background-color: #141e46;
-    padding: 10px;
     height: 400px;
     width: 100%;
+}
+
+.hero-content{
+    display: flex;
+    width: 80%;
 }
 
 .hero-text{
@@ -80,11 +84,18 @@ body{
     font-size: 24px;
 }
 
-img{
-    width: 400px;
-    height: auto;
-    justify-content: flex-end;
+.hero-img{
+    display: flex;
+    width: 50%;
+    justify-content: right;
+
 }
+
+img{
+    height: 400px;
+    width: auto;    
+}
+
 
 .white{
     display: flex;
