@@ -20,12 +20,13 @@ body{
     height: 50px;
     width: 100%;
     justify-content: center;
+    border-bottom: solid;
 
 }
 
 .header-content{
     display: flex;
-    width: 850px;
+    width: 80%;
     justify-content: center;
     align-self: center;
 }
@@ -36,34 +37,37 @@ body{
     font-size: 24px;
     font-weight: 500;
     display: flex;
-    flex: 100%;
     justify-content: flex-start;
     align-self: center;
 }
 
 .links{
     display: flex;
-    flex: 100%;
+    flex: 33%;
     justify-content: right;
     align-self: center;
 }
 
+.cam{
+    display: flex;
+    flex: 1 1 50%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 300px;   
+}
+
 .link{
     display: flex;
-    flex: 33%;
     justify-content: center;
-    margin: auto;
+    margin: 10px;
     align-self: center;
 }
 
 .hero{ 
     display: flex;
-    flex: 100%;
     justify-content: center;
-    align-self: center;
     background-color: #141e46;
-    height: 450px;
-    width: 100%;
+    height: 500px;
 }
 
 .hero-content{
@@ -107,13 +111,12 @@ body{
 
 .hero-img{
     display: flex;
-    width: 50%;
+    flex: 50%;
     justify-content: right;
 }
 
 img{
-    height: 400px;
-    width: auto; 
+    flex: 1 1 auto;
     border-radius: 30px;   
 }
 
@@ -121,6 +124,7 @@ img{
 .white{
     display: flex;
     background-color: #FF6969;
+    background-image: linear-gradient(47deg, #FF6969 0%, #BB2525 100%);
     justify-content: center;
     padding: 10px;
     height: 500px;
@@ -157,7 +161,7 @@ img{
     display: flex;
     flex: 25%;
     flex-direction: column;
-    gap: 10px;
+    margin: auto;
     justify-content: center;
     align-self: center;
 }
