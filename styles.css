@@ -25,7 +25,7 @@ body{
 
 .header-content{
     display: flex;
-    width: 80%;
+    width: 850px;
     justify-content: center;
     align-self: center;
 }
@@ -68,17 +68,15 @@ body{
 
 .hero-content{
     display: flex;
-    justify-content: center;
     align-self: center;
     height: 400px;
-    width: 80%;
+    width: 850px;
 }
 
 .hero-text{
     display: flex;
     flex-direction: column;
     align-self: center;
-    justify-content: flex-start;
     color: #f9faf8;
     width: 50%;
     gap: 10px;
@@ -115,7 +113,8 @@ body{
 
 img{
     height: 400px;
-    width: auto;    
+    width: auto; 
+    border-radius: 30px;   
 }
 
 
@@ -123,16 +122,60 @@ img{
     display: flex;
     justify-content: center;
     padding: 10px;
-    height: 400px;
+    height: 500px;
     width: 100%;
 }
+
+.white-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    width: 850px;
+    gap: 8px;
+}
+
+.white-info{
+    font-size: 36px;
+    color: #141E46;
+    font-weight: bold;
+    justify-content: center;
+    align-self: center;
+}
+
+.white-images{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    justify-content: space-between;
+}
+
+.white-image-one{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-self: center;
+}
+
+.hardpourcorn{
+    width: 200px;
+    height: auto;
+}
+
+.hardpourtext{
+    height: 20px;
+    align-self: center;
+}
+
+
 
 .gray{
     display: flex;
     justify-content: center;
     background-color: #fff5e0;
     padding: 10px;
-    height: 400px;
+    height: 500px;
     width: 100%;
 }
 
@@ -140,7 +183,7 @@ img{
     display: flex;
     justify-content: center;
     padding: 10px;
-    height: 400px;
+    height: 500px;
     width: 100%;
 }
 
