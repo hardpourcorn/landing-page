@@ -191,8 +191,6 @@ img{
     text-align: center;
 }
 
-
-
 .gray{
     display: flex;
     justify-content: center;
@@ -227,13 +225,52 @@ img{
     padding: 10px;
     height: 500px;
     width: 100%;
+}  
+
+.bluebox{
+    background-color: #141E46;
+    display: flex;
+    width: 60%;
+    height: 150px;
+    border-radius: 30px;  
+    align-self: center;
+    justify-content: center;
+}
+
+.textbox{
+    display: flex;
+    width: 80%;
+    height: 100px;
+    align-self: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.textbox-left{
+    display: flex;
+    color: #fff5e0;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.textbox-right{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.textbox-button{
+    display: flex;
+    padding: 8px;
 }
 
 .footer{
     display: flex;
     justify-content: center;
+    align-self: center;
     background-color: #141E46;
     padding: 10px;
-    height: 50px;
     width: 100%;
+    color: #fff5e0;
 }
