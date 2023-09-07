@@ -17,7 +17,7 @@ body{
     background-color: #141E46;
     color: #f9faf8;
     display: flex;
-    height: 50px;
+    height: 60px;
     width: 100%;
     justify-content: center;
 }
@@ -49,6 +49,7 @@ body{
 
 .links{
     display: flex;
+    gap: 10px;
     width: 50%;
     justify-content: right;
     align-self: center;
@@ -56,9 +57,7 @@ body{
 
 .link{
     display: flex;
-    justify-content: center;
     margin: 10px;
-    align-self: center;
 }
 
 .link:hover{
@@ -74,9 +73,8 @@ body{
 
 .hero-content{
     display: flex;
-    align-self: center;
-    height: 400px;
-    width: 850px;
+    width: 80%;
+    gap: 100px;
 }
 
 .hero-text{
@@ -96,6 +94,7 @@ body{
 .hero-sub-text{
     font-size: 24px;
 }
+
 .hero-button{
   background-color: #3882f6;
   display: flex; 
@@ -110,22 +109,24 @@ body{
   cursor: pointer;
 }
 
+.hero-right{
+    display: flex;
+    flex: 50%;
+    justify-content: right;
+    align-self: center;
+}
 
 .hero-img{
     display: flex;
-    flex: 50%;
     justify-content: right;
 }
 
 .cam{
     display: flex;
-    flex: 1 1 50%;
-    height: auto;
-    border-radius: 300px;   
+    flex: 1 1 50%;   
 }
 
 img{
-    flex: 1 1 auto;
     border-radius: 30px;   
 }
 
@@ -169,6 +170,7 @@ img{
 .white-image-one{
     display: flex;
     flex: 25%;
+    gap: 10px;
     flex-direction: column;
     margin: auto;
     justify-content: center;
@@ -196,6 +198,24 @@ img{
     padding: 10px;
     height: 500px;
     width: 100%;
+}
+
+.graybox{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    align-self: center;
+}
+
+.quotebox{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.name{
+    display: flex;
+    justify-content: right;
 }
 
 .white-bot{
